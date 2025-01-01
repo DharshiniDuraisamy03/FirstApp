@@ -2,10 +2,10 @@
   <div class="navbar">
     <h1 class="buildtxt">Buildit</h1>
     <div class="nav-components">
-      <button class="btn">About</button>
-      <button class="btn">Services</button>
-      <button class="btn">Projects</button>
-      <button class="btn">Contact</button>
+      <button class="btn" (click)="about()">About</button>
+      <button class="btn" (click)="services()">Services</button>
+      <button class="btn" (click)="projects()">Projects</button>
+      <button class="btn" (click)="contact()">Contact</button>
     </div>
     <button class="need-btn">Need a Project?</button>
   </div>
@@ -123,9 +123,33 @@
     </div>
   </div>
   <div class="footer-container">
-    <div class="footer-style">Build</div>
-    <div class="footer-style">Service</div>
-    <div class="footer-style">About us</div>
-    <div class="footer-style">Get in touch</div>
+    <div class="footer-style1">
+      <h1>Buildit</h1>
+      <p>Development company, 2022</p>
+      <br /><br /><br />
+      <p>Site design – ⏰ Alarm</p>
+    </div>
+    <div class="footer-style">
+      <p>Service 1</p>
+      <p>Service 2</p>
+      <p>Service 3</p>
+      <p>Service 4</p>
+      <div class="footer-img">
+        <img src="assets/images/HomeImg/Button.png" class="img" />
+        <img src="assets/images/HomeImg/Button1.png" class="img" />
+      </div>
+    </div>
+    <div class="footer-style">
+      <p>About us</p>
+      <p>Services</p>
+      <p>Projects</p>
+      <p>Contact</p>
+    </div>
+    <div class="footer-style">
+      <p>Get in touch</p>
+      <p>60 Manor Station St. Fairport, NY 14450</p>
+      <p>708-790-0000</p>
+      <p>salesbuildit.site</p>
+    </div>
   </div>
 </div>
