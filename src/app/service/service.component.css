@@ -1,0 +1,139 @@
+.home-container {
+  .home-img {
+    background-image: url("/assets/images/Service/Bg.png");
+    background-color: #e1ebfa;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    .navbar {
+      /* background-color: #e1ebfa; */
+      display: flex;
+      gap: 250px;
+      padding: 25px 120px 15px 120px; /* top right bottom left */
+      .buildtxt {
+        color: #486a6f;
+      }
+      .nav-components {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        align-items: center;
+        color: #486a6f;
+        letter-spacing: 1px;
+        gap: 80px;
+        .btn {
+          font-size: 17px;
+          background-color: transparent;
+          cursor: pointer;
+          border: none;
+          color: #486a6f;
+        }
+      }
+      .need-btn {
+        font-weight: bold;
+        background-color: #4397a4;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: auto;
+        height: 50px;
+        width: 200px;
+        margin-top: 18px;
+      }
+    }
+    .homeMain {
+      font-family: "Poppins", sans-serif;
+      /* background-color: #e1ebfa; */
+
+      padding-left: 120px;
+      padding-right: 120px;
+      display: flex;
+
+      .image-container1 {
+        text-align: center;
+        padding: 80px 260px 120px 260px; /* top right bottom left */
+        .para1 {
+          color: #5bccde;
+        }
+        .headtxt {
+          color: #486a6f;
+          font-size: 47px;
+        }
+        .para2 {
+          color: #678c92;
+          font-size: 20px;
+          line-height: 1.7;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .about-container {
+    font-family: "Poppins", sans-serif;
+    background-color: #e1ebfa;
+    display: flex;
+    gap: 80px;
+    padding: 100px 150px 100px 150px; /* top right bottom left */
+    .image-container {
+      .imgStyle {
+        height: 380px;
+        width: 500px;
+      }
+    }
+
+    .image-container1 {
+      margin-top: -50px;
+      .para1 {
+        color: #5bccde;
+      }
+      .headtxt {
+        color: #486a6f;
+        font-size: 47px;
+      }
+      .para2 {
+        color: #678c92;
+        font-size: 20px;
+        line-height: 1.7;
+        padding-bottom: 20px;
+      }
+      .Explore-btn {
+        font-weight: bold;
+        background-color: #4397a4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: 30px;
+        height: 50px;
+        width: 200px;
+      }
+    }
+  }
+  .footer-container {
+    background-color: #486a6f;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    padding: 60px 0px 20px 120px; /* top right bottom left */
+    .footer-style {
+      height: 300px;
+      width: 300px;
+    }
+    .footer-style1 {
+      height: 300px;
+      width: 400px;
+    }
+    .footer-img {
+      display: flex;
+      .img {
+        height: 40px;
+        width: 40px;
+        padding-right: 20px;
+      }
+    }
+  }
+}

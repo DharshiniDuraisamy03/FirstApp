@@ -1,6 +1,4 @@
 .about-container {
-  /* margin-left: 20px; */
-
   .navbar {
     background-color: #e1ebfa;
     display: flex;
@@ -53,7 +51,6 @@
       }
     }
     .image-container1 {
-      /* margin-top: -50px; */
       .para1 {
         color: #5bccde;
       }
@@ -117,7 +114,6 @@
         }
         .parastyle1 {
           color: #678c92;
-          /* line-height: 1.5; */
           font-weight: bold;
         }
       }
@@ -157,11 +153,85 @@
     }
     .headtxt {
       color: #486a6f;
-      padding-bottom: 80px;
+      padding-bottom: 30px;
     }
     .image-container {
       .row {
         display: flex;
+        gap: 50px;
+        justify-content: center;
+        padding-bottom: 40px;
+        .boxstyle {
+          height: 400px;
+          width: 300px;
+          box-shadow: #c6dbff 0px 20px 20px 0px;
+          .image {
+            height: 270px;
+            width: 300px;
+            padding-top: 15px;
+          }
+          .nameStyle {
+            color: #486a6f;
+          }
+          .detailStyle {
+            color: #678c92;
+          }
+        }
+      }
+    }
+    .footstyle {
+      display: flex;
+      padding: 30px 200px 30px 200px;
+      .callStyle {
+        color: #486a6f;
+      }
+      .btn-container {
+        margin-left: auto;
+        padding-top: 20px;
+        .Services-btn {
+          font-weight: bold;
+          background-color: #4397a4;
+          color: #fff;
+          border: none;
+          padding: 10px 50px;
+          cursor: pointer;
+          font-size: 16px;
+          margin-left: auto;
+          margin-right: 30px;
+        }
+        .about-btn {
+          font-weight: bold;
+          background-color: #c6dbff;
+          color: #486a6f;
+          border: none;
+          padding: 10px 30px;
+          cursor: pointer;
+          font-size: 16px;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  .footer-container {
+    background-color: #486a6f;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    padding: 60px 0px 20px 120px; /* top right bottom left */
+    .footer-style {
+      height: 300px;
+      width: 300px;
+    }
+    .footer-style1 {
+      height: 300px;
+      width: 400px;
+    }
+    .footer-img {
+      display: flex;
+      .img {
+        height: 40px;
+        width: 40px;
+        padding-right: 20px;
       }
     }
   }
