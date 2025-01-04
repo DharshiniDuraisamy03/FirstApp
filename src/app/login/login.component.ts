@@ -17,6 +17,19 @@ export class LoginComponent {
 
   constructor(private auth: AuthService, private router: Router) {}
 
+  about() {
+    this.router.navigate(['about']);
+  }
+  services() {
+    this.router.navigate(['service']);
+  }
+  projects() {
+    this.router.navigate(['projects']);
+  }
+  contact() {
+    this.router.navigate(['contact']);
+  }
+
   login() {
     if (this.username.trim().length === 0) {
       this.errorMsg = 'Username is required';

@@ -1,64 +1,111 @@
 .login-container {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(135deg, #ffe645 0%, #e2aa02 100%);
-  position: relative;
-  .logo {
-    font-size: 60px;
-    font-weight: bold;
-    font-family: "Creepster", cursive;
-    letter-spacing: 10px;
-    position: absolute;
-    top: 25px;
-    right: 50px;
-  }
-  .desc {
-    font-size: 25px;
-    font-family: "Aladin", cursive;
-    letter-spacing: 5px;
-    position: absolute;
-    top: 120px;
-    right: 50px;
-    text-align: right;
-    width: 1000px;
-  }
-  .film {
-    position: absolute;
-    top: 40px;
-    left: 50px;
-    width: 464px;
-  }
-  .login-form {
-    width: 400px;
-    height: 230px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    box-shadow: 5px 5px 20px #383838;
-    .form-group {
-      margin-top: 20px;
-      .label-style {
-        font-size: 20px;
-        display: block;
-        margin-bottom: -10px;
+  .home-img {
+    background-color: #e1ebfa;
+    background-size: cover;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    .navbar {
+      /* background-color: #e1ebfa; */
+      display: flex;
+      gap: 250px;
+      padding: 25px 120px 15px 120px; /* top right bottom left */
+      .buildtxt {
+        color: #486a6f;
+      }
+      .nav-components {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        align-items: center;
+        color: #486a6f;
+        letter-spacing: 1px;
+        gap: 80px;
+        .btn {
+          font-size: 17px;
+          background-color: transparent;
+          cursor: pointer;
+          border: none;
+          color: #486a6f;
+        }
+      }
+      .need-btn {
+        font-weight: bold;
+        background-color: #4397a4;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: auto;
+        height: 50px;
+        width: 200px;
+        margin-top: 18px;
       }
     }
-    label {
-      font-weight: bold;
-    }
-    .btn-container {
-      position: relative;
-      .btn {
-        margin-top: 30px;
+    .login-form {
+      width: 400px;
+      height: 400px;
+      padding: 20px;
+      background-color: #f4f7ff;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 100px;
+      right: 120px;
+      box-shadow: 5px 5px 20px #678c92;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      .signin {
+        color: #486a6f;
+        padding-bottom: 20px;
       }
-      .error {
-        position: absolute;
-        top: 32px;
-        right: 0px;
-        color: red;
+      .form-group {
+        margin-top: 20px;
+        .label-style {
+          font-size: 20px;
+          display: block;
+          margin-bottom: -5px;
+          color: #678c92;
+          text-align: left;
+          padding-left: 8%;
+        }
+        input[type="text"],
+        input[type="password"] {
+          width: 80%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+      }
+      label {
+        font-weight: bold;
+      }
+      .btn-container {
+        position: relative;
+        padding-top: 20px;
+        .need-btn {
+          font-weight: bold;
+          background-color: #4397a4;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 14px;
+          margin-left: auto;
+          height: 40px;
+          /* width: 100%; */
+          /* width: 200px; */
+          margin-top: 18px;
+        }
+        .error {
+          position: absolute;
+          top: 32px;
+          right: 0px;
+          color: red;
+        }
       }
     }
   }
