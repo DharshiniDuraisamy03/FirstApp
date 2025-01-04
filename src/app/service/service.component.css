@@ -1,6 +1,6 @@
 .home-container {
   .home-img {
-    background-image: url("/assets/images/Service/Bg.png");
+    background-image: url("./assets/images/Service/Bg.png");
     background-color: #e1ebfa;
     background-size: cover;
     /* background-repeat: no-repeat; */
