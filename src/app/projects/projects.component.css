@@ -25,6 +25,10 @@
           cursor: pointer;
           border: none;
           color: #486a6f;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
       .need-btn {
@@ -40,6 +44,11 @@
         height: 50px;
         width: 200px;
         margin-top: 18px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
       }
     }
     .homeMain {
@@ -95,6 +104,11 @@
           height: 370px;
           width: 320px;
           box-shadow: #c6dbff 0px 20px 20px 0px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          }
           .image {
             height: 270px;
             width: 320px;
@@ -128,6 +142,11 @@
           font-size: 16px;
           margin-left: auto;
           margin-right: 30px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          }
         }
         .about-btn {
           font-weight: bold;
@@ -138,6 +157,11 @@
           cursor: pointer;
           font-size: 16px;
           margin-left: auto;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          }
         }
       }
     }

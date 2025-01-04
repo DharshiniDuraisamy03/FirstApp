@@ -25,6 +25,10 @@
           cursor: pointer;
           border: none;
           color: #486a6f;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
       .need-btn {
@@ -40,6 +44,11 @@
         height: 50px;
         width: 200px;
         margin-top: 18px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
       }
     }
     .homeMain {
@@ -80,6 +89,11 @@
       .imgStyle {
         height: 380px;
         width: 500px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
       }
     }
 
@@ -123,6 +137,11 @@
         margin-right: auto;
         .btn {
           color: #4397a4;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+          }
         }
       }
     }

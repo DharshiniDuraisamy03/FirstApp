@@ -7,7 +7,7 @@
       <button class="btn" (click)="projects()">Projects</button>
       <button class="btn" (click)="contact()">Contact</button>
     </div>
-    <button class="need-btn">Need a Project?</button>
+    <button class="need-btn" (click)="projects()">Need a Project?</button>
   </div>
   <div class="homeMain">
     <div class="home-content">
@@ -17,8 +17,8 @@
         and investor with a reputation
       </p>
       <div class="btn-container">
-        <button class="Services-btn">Services</button>
-        <button class="about-btn">About the company</button>
+        <button class="Services-btn" (click)="services()">Services</button>
+        <button class="about-btn" (click)="about()">About the company</button>
       </div>
     </div>
     <div class="home-img">
@@ -78,7 +78,7 @@
         molestie sapien sed fermentum. Mauris dui tortor, viverra vel ultrices
         in, congue sed ex.
       </p>
-      <button class="Explore-btn">Explore</button>
+      <button class="Explore-btn" (click)="projects()">Explore</button>
     </div>
   </div>
   <div class="available-container">
@@ -93,7 +93,9 @@
         molestie sapien sed fermentum. Mauris dui tortor, viverra vel ultrices
         in, congue sed ex.
       </p>
-      <button class="Explore-btn">Explore</button>
+      <button class="Explore-btn" (click)="projects()" (click)="projects()">
+        Explore
+      </button>
     </div>
     <div class="image-container">
       <div>
@@ -111,14 +113,26 @@
     <h1 class="headtxt">On Instagram</h1>
     <div class="home-img">
       <div>
-        <img src="assets/images/HomeImg/Card.png" alt="" class="img" />
-        <img src="assets/images/HomeImg/Card1.png" alt="" class="img" />
-        <img src="assets/images/HomeImg/Card2.png" alt="" class="img" />
+        <div>
+          <img src="assets/images/HomeImg/Card.png" alt="" class="img" />
+        </div>
+        <div>
+          <img src="assets/images/HomeImg/Card1.png" alt="" class="img" />
+        </div>
+        <div>
+          <img src="assets/images/HomeImg/Card2.png" alt="" class="img" />
+        </div>
       </div>
-      <div>
-        <img src="assets/images/HomeImg/Card3.png" alt="" class="img" />
-        <img src="assets/images/HomeImg/Card4.png" alt="" class="img" />
-        <img src="assets/images/HomeImg/Card5.png" alt="" class="img" />
+      <div class="divstyle">
+        <div>
+          <img src="assets/images/HomeImg/Card3.png" alt="" class="img1" />
+        </div>
+        <div>
+          <img src="assets/images/HomeImg/Card4.png" alt="" class="img1" />
+        </div>
+        <div>
+          <img src="assets/images/HomeImg/Card5.png" alt="" class="img1" />
+        </div>
       </div>
     </div>
   </div>
