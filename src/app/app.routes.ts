@@ -14,5 +14,5 @@ export const routes: Routes = [
   { path: 'service', component: ServiceComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '**', redirectTo: '/login' },
+  // { path: '**', redirectTo: '/login' },
 ];
