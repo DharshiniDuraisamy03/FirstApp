@@ -7,7 +7,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
